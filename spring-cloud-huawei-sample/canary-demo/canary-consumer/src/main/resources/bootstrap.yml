@@ -4,7 +4,8 @@ spring:
   cloud:
     servicecomb:
       config:
-        serverAddr:  http://127.0.0.1:30113
+#        serverAddr:  http://127.0.0.1:30113
+        serverAddr:  http://192.168.0.180:30103
         watch:
           delay: 10000
       credentials:
