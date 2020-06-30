@@ -20,7 +20,7 @@ public class ConsumerController {
   @RequestMapping("/canary")
   public String getOrder(@RequestParam("id") String id) {
     String callServiceResult = restTemplate.getForObject("http://canary-provider/provider?id=" + id, String.class);
-    return callServiceResult;
+    return callServiceResult + ' ' + Runtime.getRuntime().availableProcessors();
   }
 
   @RequestMapping("/testconfig")

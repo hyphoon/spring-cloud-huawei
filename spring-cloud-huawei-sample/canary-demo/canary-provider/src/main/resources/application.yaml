@@ -9,7 +9,7 @@ spring:
       discovery:
         enabled: true
 #        address: http://127.0.0.1:30100
-        address: http://192.168.0.80:30100,http://192.168.0.221:30100
+        address: https://192.168.0.170:30100
         version: 0.0.1
         healthCheckInterval: 30
       credentials:
