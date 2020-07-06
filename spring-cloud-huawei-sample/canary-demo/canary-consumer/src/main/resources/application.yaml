@@ -25,3 +25,5 @@ servicecomb:
           - weight: 20
             tags:
               version: 0.0.2
+
+envProp: InProperty
